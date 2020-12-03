@@ -1,0 +1,88 @@
+/* CSS Comment */
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan&display=swap');
+
+body {
+    font-family: 'Kodchasan', sans-serif;
+}
+
+.center {
+    text-align: center;
+}
+
+.color-test {
+    background-color: pink;
+}
+
+.color-test-rgb {
+    background-color: rgb(129, 216, 182);
+}
+
+.color-test-rgba {
+    background-color: rgba(255, 0, 0, 0.3);
+}
+
+.color-test-hex {
+    background-color: #ecbaa0;
+}
+
+.background-test {
+    background-color: rgba(255, 0, 0, 0.3);
+}
+
+.background-test-img {
+    background-image: url("download.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.background-test-img-short {
+    background: pink url("download.jpg") no-repeat 50% 300px;
+}
+
+.margin-test {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.padding-test {
+    border: 1px solid brown;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+/*
+body {
+    background-color: white;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    color:black;
+    text-align: right;
+} 
+
+#fy {
+    color: red;
+}
+
+.fr {
+    color: yellow;
+}
+
+.fb {
+    font-size: 50px;
+}
+
+p.center {
+    text-align: center;
+}
+*/
